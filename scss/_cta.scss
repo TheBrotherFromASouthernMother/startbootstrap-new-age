@@ -2,8 +2,11 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('https://s3-us-west-2.amazonaws.com/tonl-photosresized/images/large/TONL-9899.jpg');
-    background-position: center;
+    background-image: url('../img/green-book-guide-freedom copy.jpg');
+    background-position: 70%;
+    @media (min-width: 768px) {
+      background-position: 50%;
+    }
     @include background-cover;
     .cta-content {
         position: relative;

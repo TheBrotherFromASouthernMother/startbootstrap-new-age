@@ -10,7 +10,7 @@ header.masthead {
     background: url('../img/bg-pattern.png'), $theme-secondary;
     // background: url('../img/bg-pattern.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     // background: url('../img/bg-pattern.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary 5%);
-    background-image: url('https://s3-us-west-2.amazonaws.com/thegreenbook.io/assets/TONL-9534.jpg');
+    background-image: url('../img/TONL-9534.jpg');
     background-position: center;
     @include background-cover;
     .header-content {
@@ -40,7 +40,7 @@ header.masthead {
 
             text-align: left;
             h1 {
-                font-size: 50px;
+                font-size: 40px;
             }
         }
         .device-container {
@@ -54,7 +54,7 @@ header.masthead {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: fade-out(black, .7);
+        background-color: fade-out(black, .5);
     }
     .content-block {
       z-index: 2,

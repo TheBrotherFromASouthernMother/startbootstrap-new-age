@@ -155,7 +155,7 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #eee;
-  background-image: url("https://s3-us-west-2.amazonaws.com/thegreenbook.io/assets/TONL-9534.jpg");
+  background-image: url("../img/TONL-9534.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -192,7 +192,7 @@ header.masthead .device-container .screen img {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   header.masthead .device-container {
     max-width: 325px;
@@ -206,7 +206,7 @@ header.masthead .overlay {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 header.masthead .content-block {
@@ -300,9 +300,15 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("https://s3-us-west-2.amazonaws.com/tonl-photosresized/images/large/TONL-9899.jpg");
-  background-position: center;
+  background-image: url("../img/green-book-guide-freedom copy.jpg");
+  background-position: 70%;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  section.cta {
+    background-position: 50%;
+  }
 }
 
 section.cta .cta-content {
